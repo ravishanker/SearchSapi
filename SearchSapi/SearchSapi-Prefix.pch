@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SearchSapi' target in the 'SearchSapi' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
