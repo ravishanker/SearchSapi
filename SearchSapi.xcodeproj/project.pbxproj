@@ -24,9 +24,6 @@
 		C8F71AB9151EFEBC00A1071E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F71AB8151EFEBC00A1071E /* main.m */; };
 		C8F71ABC151EFEBC00A1071E /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F71ABB151EFEBC00A1071E /* Cordova.framework */; };
 		C8F71AC1151EFEBC00A1071E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8F71ABF151EFEBC00A1071E /* Localizable.strings */; };
-		C8F71AC5151EFEBC00A1071E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8F71AC3151EFEBC00A1071E /* Localizable.strings */; };
-		C8F71AC9151EFEBC00A1071E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8F71AC7151EFEBC00A1071E /* Localizable.strings */; };
-		C8F71ACD151EFEBC00A1071E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8F71ACB151EFEBC00A1071E /* Localizable.strings */; };
 		C8F71AD0151EFEBC00A1071E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F71ACF151EFEBC00A1071E /* icon.png */; };
 		C8F71AD2151EFEBC00A1071E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F71AD1151EFEBC00A1071E /* icon@2x.png */; };
 		C8F71AD4151EFEBC00A1071E /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F71AD3151EFEBC00A1071E /* icon-72.png */; };
@@ -38,6 +35,7 @@
 		C8F71AE4151EFEBC00A1071E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F71AE3151EFEBC00A1071E /* MainViewController.m */; };
 		C8F71AE6151EFEBC00A1071E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8F71AE5151EFEBC00A1071E /* MainViewController.xib */; };
 		C8F71AEA151EFEBC00A1071E /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = C8F71AE9151EFEBC00A1071E /* verify.sh */; };
+		C8F71AF1151EFF2300A1071E /* www in Resources */ = {isa = PBXBuildFile; fileRef = C8F71AF0151EFF2300A1071E /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,10 +53,10 @@
 		C8F71AAC151EFEBB00A1071E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C8F71AAE151EFEBB00A1071E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C8F71AB0151EFEBC00A1071E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		C8F71AB4151EFEBC00A1071E /* SearchSapi-Info.plist */ = {isa = PBXFileReference; path = "SearchSapi-Info.plist"; sourceTree = "<group>"; };
+		C8F71AB4151EFEBC00A1071E /* SearchSapi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchSapi-Info.plist"; sourceTree = "<group>"; };
 		C8F71AB6151EFEBC00A1071E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8F71AB8151EFEBC00A1071E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C8F71ABA151EFEBC00A1071E /* SearchSapi-Prefix.pch */ = {isa = PBXFileReference; path = "SearchSapi-Prefix.pch"; sourceTree = "<group>"; };
+		C8F71ABA151EFEBC00A1071E /* SearchSapi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchSapi-Prefix.pch"; sourceTree = "<group>"; };
 		C8F71ABB151EFEBC00A1071E /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		C8F71AC0151EFEBC00A1071E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C8F71AC4151EFEBC00A1071E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,13 +69,14 @@
 		C8F71AD8151EFEBC00A1071E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		C8F71ADA151EFEBC00A1071E /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		C8F71ADC151EFEBC00A1071E /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		C8F71ADF151EFEBC00A1071E /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		C8F71ADF151EFEBC00A1071E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		C8F71AE0151EFEBC00A1071E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		C8F71AE2151EFEBC00A1071E /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		C8F71AE2151EFEBC00A1071E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		C8F71AE3151EFEBC00A1071E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		C8F71AE5151EFEBC00A1071E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		C8F71AE8151EFEBC00A1071E /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		C8F71AE8151EFEBC00A1071E /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		C8F71AE9151EFEBC00A1071E /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		C8F71AF0151EFF2300A1071E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +114,7 @@
 		C8F71A86151EFEBB00A1071E = {
 			isa = PBXGroup;
 			children = (
+				C8F71AF0151EFF2300A1071E /* www */,
 				C8F71AB2151EFEBC00A1071E /* SearchSapi */,
 				C8F71A97151EFEBB00A1071E /* Frameworks */,
 				C8F71A95151EFEBB00A1071E /* Products */,
@@ -287,6 +287,9 @@
 /* Begin PBXProject section */
 		C8F71A88151EFEBB00A1071E /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = C8F71A8B151EFEBB00A1071E /* Build configuration list for PBXProject "SearchSapi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -314,9 +317,6 @@
 			files = (
 				C8F71AB7151EFEBC00A1071E /* InfoPlist.strings in Resources */,
 				C8F71AC1151EFEBC00A1071E /* Localizable.strings in Resources */,
-				C8F71AC5151EFEBC00A1071E /* Localizable.strings in Resources */,
-				C8F71AC9151EFEBC00A1071E /* Localizable.strings in Resources */,
-				C8F71ACD151EFEBC00A1071E /* Localizable.strings in Resources */,
 				C8F71AD0151EFEBC00A1071E /* icon.png in Resources */,
 				C8F71AD2151EFEBC00A1071E /* icon@2x.png in Resources */,
 				C8F71AD4151EFEBC00A1071E /* icon-72.png in Resources */,
@@ -326,6 +326,7 @@
 				C8F71ADD151EFEBC00A1071E /* Cordova.plist in Resources */,
 				C8F71AE6151EFEBC00A1071E /* MainViewController.xib in Resources */,
 				C8F71AEA151EFEBC00A1071E /* verify.sh in Resources */,
+				C8F71AF1151EFF2300A1071E /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +430,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -449,6 +451,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -472,6 +475,7 @@
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "SearchSapi/SearchSapi-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -502,6 +506,7 @@
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "SearchSapi/SearchSapi-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -539,6 +544,7 @@
 				C8F71AEF151EFEBC00A1071E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
